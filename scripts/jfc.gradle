@@ -38,7 +38,7 @@ ext.jfc = [
 
 /**
  * adds args to run task
- * @example gradle run -PappArgs="['arg1', 'args2']"
+ * @example gradle run -PappArgs=["arg1", "args2"]
  */
 run {
     if (project.hasProperty("appArgs")) {
